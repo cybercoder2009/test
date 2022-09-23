@@ -1,0 +1,12 @@
+[package]
+name = "nft"
+version = "0.0.1"
+authors = ["Gamenauts <hello@gamenauts.net>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.0.0"
+near-contract-standards = "4.0.0"
